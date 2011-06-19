@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget35"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditText android:id="@+id/nama_lengkap" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="20px"
+		android:textSize="18sp">
+	</EditText>
+	<EditText android:id="@+id/username" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="18sp">
+	</EditText>
+	<EditText android:id="@+id/password" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="18sp"
+		android:password="true">
+	</EditText>
+	<RadioGroup android:id="@+id/widget47" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/laki" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="Laki - laki"
+			android:checked="true">
+		</RadioButton>
+		<RadioButton android:id="@+id/perempuan"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Perempuan">
+		</RadioButton>
+	</RadioGroup>
+	<EditText android:id="@+id/alamat" android:layout_width="fill_parent"
+		android:layout_height="100px" android:textSize="18sp">
+	</EditText>
+	<Button android:id="@+id/daftar" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Daftar">
+	</Button>
+</LinearLayout>
