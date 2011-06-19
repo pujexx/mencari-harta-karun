@@ -6,22 +6,22 @@
 		android:layout_height="wrap_content" android:layout_marginTop="20px"
 		android:textSize="18sp">
 	</EditText>
-	<EditText android:id="@+id/username" android:layout_width="fill_parent"
+	<EditText android:id="@+id/username_daftar" android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:textSize="18sp">
 	</EditText>
-	<EditText android:id="@+id/password" android:layout_width="fill_parent"
+	<EditText android:id="@+id/password_daftar" android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:textSize="18sp"
 		android:password="true">
 	</EditText>
 	<RadioGroup android:id="@+id/widget47" android:layout_width="wrap_content"
 		android:layout_height="wrap_content">
 		<RadioButton android:id="@+id/laki" android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:text="Laki - laki"
-			android:checked="true">
+			android:layout_height="wrap_content" android:text="Laki - laki" android:checked="true"
+			>
 		</RadioButton>
 		<RadioButton android:id="@+id/perempuan"
 			android:layout_width="fill_parent" android:layout_height="wrap_content"
-			android:text="Perempuan">
+			android:text="Perempuan" >
 		</RadioButton>
 	</RadioGroup>
 	<EditText android:id="@+id/alamat" android:layout_width="fill_parent"

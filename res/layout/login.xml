@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@+id/widget35"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	android:orientation="vertical">
 	<EditText android:id="@+id/username" android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:layout_marginTop="150px"
-		android:layout_marginLeft="10px" android:layout_marginRight="10px"
-		android:textSize="18sp">
+		android:layout_height="wrap_content" android:layout_marginTop="150px">
 	</EditText>
-	<EditText android:id="@+id/widget32" android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:textSize="18sp"
-		android:password="true">
+	<EditText android:id="@+id/password" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:password="true">
 	</EditText>
-	<Button android:id="@+id/widget33" android:layout_width="320px"
-		android:layout_height="wrap_content" android:text="Button">
+	<Button android:id="@+id/login" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Login">
 	</Button>
+
+	<Button 
+	android:layout_marginTop="50px"
+	android:id="@+id/daftar_awal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Daftar">
+	</Button>
+
 </LinearLayout>

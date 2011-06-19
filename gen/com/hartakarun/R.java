@@ -14,17 +14,19 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int alamat=0x7f050009;
-        public static final int daftar=0x7f05000a;
-        public static final int laki=0x7f050007;
-        public static final int nama_lengkap=0x7f050004;
-        public static final int password=0x7f050005;
-        public static final int perempuan=0x7f050008;
-        public static final int username=0x7f050001;
-        public static final int widget32=0x7f050002;
-        public static final int widget33=0x7f050003;
-        public static final int widget35=0x7f050000;
-        public static final int widget47=0x7f050006;
+        public static final int alamat=0x7f05000b;
+        public static final int daftar=0x7f05000c;
+        public static final int daftar_awal=0x7f050003;
+        public static final int laki=0x7f050009;
+        public static final int login=0x7f050002;
+        public static final int nama_lengkap=0x7f050005;
+        public static final int password=0x7f050001;
+        public static final int password_daftar=0x7f050007;
+        public static final int perempuan=0x7f05000a;
+        public static final int username=0x7f050000;
+        public static final int username_daftar=0x7f050006;
+        public static final int widget35=0x7f050004;
+        public static final int widget47=0x7f050008;
     }
     public static final class layout {
         public static final int login=0x7f030000;
